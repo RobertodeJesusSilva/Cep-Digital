@@ -1,0 +1,23 @@
+{
+    "name": "roberto/cep-digital",
+    "description": "Busca de endereços online por meio do cep",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roberto de Jesus",
+            "email": "robertodejesu671@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">= 7.2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "busca": "src/"
+        },
+        "psr-4": {
+            "Roberto\\CepDigital\\": "src/"
+        }
+    }
+}
