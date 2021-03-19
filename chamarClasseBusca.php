@@ -6,7 +6,7 @@
 
     $Busca = new busca();//Aqui instanciamos a classe "busca"
 
-    $resultado = $Busca->buscaEnderecoPorCep("55018-591");
+    $resultado = $Busca->buscaEnderecoPorCep("55018-000");
     print_r($resultado);
 
     
